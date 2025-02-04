@@ -1,0 +1,12 @@
+.star-rating {
+    color: yellow;
+    /* unicode-bidi: bidi-override; */
+    /* direction: rtl; */
+    font-size: 2rem;
+}
+
+.review-container {
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+}
