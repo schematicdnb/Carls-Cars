@@ -1,0 +1,22 @@
+.services {
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	background-color: #f9f9f9;
+	padding: 2.5%;
+}
+
+.serviceTable {
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 100%;
+	text-align: left;
+	color: black;
+}
+
+.diagnostic {
+	background-color: darkred;
+	padding: 2.5%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
