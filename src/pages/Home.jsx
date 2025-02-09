@@ -4,12 +4,13 @@ import Header from "../components/Header"
 import Review from "../components/Review"
 import Contact from "../components/Contact"
 import CTAimage from "../components/CTAimage"
+import bgImg from "../assets/pexels-daniel-andraski-197681005-13065693.jpg"
 
 function Home() {
 	return (
 		<>
 			<div className="header-container">
-				<Header />
+				<Header text="Auto mechanics serving Ottawa motorists since 1989" bgImg={bgImg}/>
 			</div>
 			<div className="reviews">
 				<p>
