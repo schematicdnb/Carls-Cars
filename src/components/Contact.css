@@ -6,7 +6,7 @@
 	padding-bottom: 40px;
 }
 
-.contact-section h1 { 
+.contact-section h1 {
 	font-size: 2em;
 	text-align: center;
 	margin-top: -5px;
@@ -35,4 +35,9 @@
 	padding-inline: 0;
 	padding-right: 25px;
 	display: inline-block;
+}
+
+.hours {
+	display: inline-block;
+	width: 100px;
 }

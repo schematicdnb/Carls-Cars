@@ -28,19 +28,23 @@ const Contact = () => {
 				<p>
 					<strong>Email</strong> <br /> carl@carlscars.ca
 				</p>
-				<p>
-					<strong>Hours</strong> <br />
-					<ul>
-						<li>Mon - Fri:</li>
-						<li>Sat:</li>
-						<li>Sun:</li>
-					</ul>
-					<ul>
-						<li>8AM - 4PM</li>
-						<li>10AM - 2PM</li>
-						<li>CLOSED</li>
-					</ul>
-				</p>
+				<div>
+					<p>
+						<strong>Hours</strong> <br />
+					</p>
+					<div>
+						<span className="hours">Mon-Fri:</span>
+						<span>8AM - 4PM</span>
+					</div>
+					<div>
+						<span className="hours">Sat:</span>
+						<span>10AM - 2PM</span>
+					</div>
+					<div>
+						<span className="hours">Sun:</span>
+						<span>CLOSED</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	)
