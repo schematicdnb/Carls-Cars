@@ -1,0 +1,31 @@
+.sound {
+	background-color: rgb(236, 236, 236);
+	color: black;
+	text-align: left;
+	padding: 5%;
+	display: flex;
+}
+
+.sound h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+.sound h2 {
+	padding-bottom: 10px;
+}
+
+.sound p {
+	padding-bottom: 10px;
+}
+
+.sound-text {
+	width: 50%;
+	padding-right: 5%;
+}
+
+.sound-image {
+	width: 50%;
+}

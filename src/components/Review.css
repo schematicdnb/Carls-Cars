@@ -1,12 +1,40 @@
-.star-rating {
-    color: yellow;
-    /* unicode-bidi: bidi-override; */
-    /* direction: rtl; */
-    font-size: 2rem;
+.reviews {
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+	background-color: #f9f9f9;
+	color: black;
+}
+
+.reviews p {
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .review-container {
-    position: relative;
-    margin: 20px;
-    padding: 10px;
+	display: flex;
+	flex-direction: row;
+    /* text-align: left; */
+	/* justify-content: center; */
+	align-items: center;
+	padding: 20px;
+	background-color: #f9f9f9;
+	color: black;
+}
+
+.review-container p {
+	display: block;
+	margin: 0;
+}
+
+.star-rating {
+	color: orange;
+	font-size: 2em;
+}
+
+.review {
+	padding: 5%;
+}
+
+.name {
+	font-weight: bold;
 }

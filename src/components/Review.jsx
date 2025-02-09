@@ -1,22 +1,21 @@
 import React from "react"
 import "./Review.css"
 
-const Reviews = () => {
+const Reviews = (props) => {
 	return (
 		<div>
+
 			<div className="review">
-                <p>This is a review paragraph.</p>
-            </div>
-			<div className="star-rating">
-				<span>☆</span>
-				<span>☆</span>
-				<span>☆</span>
-				<span>☆</span>
-				<span>☆</span>
+					{props.review}
 			</div>
-            <div className="name">
-                
-            </div>
+			<div className="star-rating">
+                {[...Array(props.rating)].map((_, i) => (
+                    <span key={i}>☆</span>
+                ))}
+			</div>
+			<div className="name">
+				<p>-{props.name}</p>
+			</div>
 		</div>
 	)
 }

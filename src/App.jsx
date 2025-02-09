@@ -1,27 +1,26 @@
 import { useState } from "react"
 import "./App.css"
-import { BrowserRouter as Router } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import Mechanics from "./pages/Mechanics"
 import Navbar from "./components/Navbar"
-import Header from "./components/Header"
-import Review from "./components/Review"
+import Services from "./pages/Services"
+import Book from "./pages/Book"
 
 function App() {
 	return (
 		<>
-			<div>
-				<Router>
+			<Router>
+				<div>
 					<Navbar />
-				</Router>
-			</div>
-			<div className="header-container">
-				<Header />
-			</div>
-			<div className="review-container">
-				<Review />
-				<Review />
-				<Review />
-				<Review />
-			</div>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/mechanics" element={<Mechanics />} />
+						<Route path="/services" element={<Services />} />
+						<Route path="/book" element={<Book />} />
+					</Routes>
+				</div>
+			</Router>
 		</>
 	)
 }
