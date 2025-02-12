@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import "./Navbar.css" // Make sure to create a corresponding CSS file for styling
 import logo from "../assets/carlscars.png"
 
-function Navbar() {
+function CustomNav() {
 	const scrollToContact = () => {
 		const contactSection = document.getElementById("contact-section")
 		if (contactSection) {
@@ -38,4 +38,4 @@ function Navbar() {
 	)
 }
 
-export default Navbar
+export default CustomNav

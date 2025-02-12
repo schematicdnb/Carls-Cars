@@ -29,3 +29,24 @@ p {
 .sound-image {
 	width: 50%;
 }
+
+.reviews p {
+	background: #f9f9f9;
+	color: black;
+	padding: 2.5%;
+	font-weight: bold;
+	font-size: 1.5em;
+	/* display: inline: */
+	/* text-align: center; */
+}
+
+.review-container {
+	display: flex;
+	flex-direction: row;
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+	/* padding: 20px; */
+	background-color: #f9f9f9;
+	color: black;
+}

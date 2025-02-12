@@ -1,0 +1,87 @@
+.book-container {
+    background-color: white;
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	text-align: left;
+    color: black;
+
+	/* padding: 10%; */
+	/* height: 100vh; */
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+input[type="url"] {
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	font-size: 16px;
+    background-color: white;
+    color: black;
+    
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #000000; /* Change to your desired color */
+    border-radius: 50%; /* Optional: make the icon circular */
+    padding: 5px; /* Optional: add some padding */
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus {
+	border-color: #4caf50;
+	outline: none;
+}
+
+.time-date {
+	/* display:  block; */
+	width: 33%;
+	/* padding: 10%; */
+}
+
+.form {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5%;
+    /* width: 50%; */
+    padding: 5%;
+}
+
+
+.info {
+	/* padding: 10%; */
+	/* display: inline-block; */
+	/* display: flex; */
+	/* width: 50%; */
+}
+
+.name, .contact {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5%;
+}
+
+.service {
+    display: flex;
+    gap: 5%;
+}
+
+.button {
+    display: block;
+}

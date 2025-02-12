@@ -1,29 +1,14 @@
-.reviews {
-	padding-top: 2.5%;
-    padding-bottom: 2.5%;
+.review-card {
+	/* padding-top: 2.5%; */
+	padding-bottom: 2.5%;
 	background-color: #f9f9f9;
 	color: black;
-}
-
-.reviews p {
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.review-container {
-	display: flex;
-	flex-direction: row;
-    /* text-align: left; */
-	/* justify-content: center; */
-	align-items: center;
-	padding: 20px;
-	background-color: #f9f9f9;
-	color: black;
-}
-
-.review-container p {
-	display: block;
-	margin: 0;
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 50%;
+	/* display: flex;
+	flex-direction: column; */
 }
 
 .star-rating {
@@ -31,10 +16,6 @@
 	font-size: 2em;
 }
 
-.review {
-	padding: 5%;
-}
-
-.name {
-	font-weight: bold;
+.review-card p {
+	font-size: 1em;
 }

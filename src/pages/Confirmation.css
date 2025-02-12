@@ -1,0 +1,17 @@
+.alert {
+	background-color: darkred;
+	padding: 2.5%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.confirmation-container {
+    background-color: white;
+    color: black;
+    padding: 5%;
+}
+
+.confirmation-container p {
+    padding: 10px;
+    font-size: 1.5em;
+}

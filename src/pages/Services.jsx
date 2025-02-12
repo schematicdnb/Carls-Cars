@@ -60,6 +60,30 @@ function Services() {
 							<td>$24.99</td>
 							<td>30 mins</td>
 						</tr>
+						<tr>
+							<td>AC Service</td>
+							<td>Inspection and recharge of air conditioning system</td>
+							<td>$49.99</td>
+							<td>1 hour</td>
+						</tr>
+						<tr>
+							<td>Transmission Flush</td>
+							<td>Complete transmission fluid replacement</td>
+							<td>$129.99</td>
+							<td>2 hours</td>
+						</tr>
+						<tr>
+							<td>Engine Tune-Up</td>
+							<td>Comprehensive engine performance check and tune-up</td>
+							<td>$199.99</td>
+							<td>3 hours</td>
+						</tr>
+						<tr>
+							<td>Detailing</td>
+							<td>Full interior and exterior detailing</td>
+							<td>$149.99</td>
+							<td>4 hours</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
