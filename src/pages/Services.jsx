@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/Header"
-import Contact from "../components/Contact"
+import ContactFooter from "../components/ContactFooter"
 import bgImg from "../assets/pexels-cottonbro-4489749.jpg"
 import "./Services.css"
 
@@ -125,8 +125,10 @@ function Services() {
 			</div>
 			<div className="diagnostic-container">
 				<div className="diagnostic">
-					<p className="diagnostic">Not sure what you need? <br></br>
-					Inspection and diagnostic services starting at $200</p>
+					<p className="diagnostic">
+						Not sure what you need? <br></br>
+						Inspection and diagnostic services starting at $200
+					</p>
 					<p className="diagnostic-description">
 						Our inspection and diagnostic service includes a thorough
 						examination of your vehicle's key systems and components. Our
@@ -139,7 +141,7 @@ function Services() {
 				</div>
 			</div>
 			<div>
-				<Contact />
+				<ContactFooter />
 			</div>
 		</>
 	)

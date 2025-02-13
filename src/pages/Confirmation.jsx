@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/Header"
-import Contact from "../components/Contact"
+import ContactFooter from "../components/ContactFooter"
 import "./Confirmation.css"
 
 function Confirmation() {
@@ -31,7 +31,7 @@ function Confirmation() {
 				</p>
 			</div>
 			<div>
-				<Contact />
+				<ContactFooter />
 			</div>
 		</>
 	)

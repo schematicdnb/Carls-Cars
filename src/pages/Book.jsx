@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/Header"
-import Contact from "../components/Contact"
+import ContactFooter from "../components/ContactFooter"
 import "./Book.css"
 // import { Form, Button } from "react-bootstrap"
 
@@ -62,7 +62,12 @@ function Book() {
 
 						<div className="service-tech">
 							<label htmlFor="service">Service type:</label>
-							<select id="service" name="service" required>
+							<select
+								id="service"
+								name="service"
+								placeholder="Select a service type"
+								required
+							>
 								<option value="service1">Service 1</option>
 								<option value="service2">Service 2</option>
 								<option value="service3">Service 3</option>
@@ -70,6 +75,7 @@ function Book() {
 							</select>
 							<label htmlFor="technician">Preferred technician:</label>
 							<select id="technician" name="technician" required>
+								<option value="first-available">First Available</option>
 								<option value="tech1">Technician 1</option>
 								<option value="tech2">Technician 2</option>
 								<option value="tech3">Technician 3</option>
@@ -95,7 +101,7 @@ function Book() {
 				</form>
 			</div>
 			<div>
-				<Contact />
+				<ContactFooter />
 			</div>
 		</>
 	)

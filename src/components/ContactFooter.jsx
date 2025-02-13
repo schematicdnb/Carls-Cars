@@ -1,7 +1,7 @@
 import React from "react"
-import "./Contact.css"
+import "./ContactFooter.css"
 
-const Contact = () => {
+const ContactFooter = () => {
 	return (
 		<div className="contact-section" id="contact-section">
 			<div className="map-container">
@@ -12,9 +12,9 @@ const Contact = () => {
 					loading="lazy"
 				></iframe>
 			</div>
-			<div>
+			{/* <div>
 				<h1>Contact</h1>
-			</div>
+			</div> */}
 			<div className="contact-details">
 				<p>
 					<strong>Address</strong> <br /> 123 Automotive Street <br /> Ottawa,
@@ -50,4 +50,4 @@ const Contact = () => {
 	)
 }
 
-export default Contact
+export default ContactFooter

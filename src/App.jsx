@@ -7,6 +7,7 @@ import CustomNav from "./components/Navbar"
 import Services from "./pages/Services"
 import Book from "./pages/Book"
 import Confirmation from "./pages/Confirmation"
+import Contact from "./pages/Contact"
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 						<Route path="/" element={<Home />} />
 						<Route path="/mechanics" element={<Mechanics />} />
 						<Route path="/services" element={<Services />} />
+						<Route path="/contact" element={<Contact />} />
 						<Route path="/book" element={<Book />} />
 						<Route path="/confirmation" element={<Confirmation />} />
 					</Routes>

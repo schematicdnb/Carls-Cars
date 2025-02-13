@@ -1,7 +1,7 @@
 import React from "react"
 import "./Mechanics.css"
 import Header from "../components/Header"
-import Contact from "../components/Contact"
+import ContactFooter from "../components/ContactFooter"
 import bgImg from "../assets/pexels-pixabay-162553.jpg"
 import Card from "../components/Card"
 import Carl from "../assets/Carl.jpg"
@@ -51,7 +51,7 @@ function Mechanics() {
 				</div>
 			</div>
 			<div>
-				<Contact />
+				<ContactFooter />
 			</div>
 		</>
 	)
