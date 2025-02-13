@@ -1,14 +1,21 @@
 .review-card {
-	/* padding-top: 2.5%; */
 	padding-bottom: 2.5%;
 	background-color: #f9f9f9;
 	color: black;
 	text-align: center;
 	justify-content: center;
 	margin: 0 auto;
-	width: 50%;
-	/* display: flex;
-	flex-direction: column; */
+	max-width: 15%;
+}
+
+.review-text {
+	font-family: "Newsreader", serif;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.reviewer-name {
+	font-weight: bold;
 }
 
 .star-rating {

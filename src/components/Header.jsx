@@ -17,7 +17,6 @@ const Header = (props) => {
 	const headerContent = {
 		paddingTop: "5%",
 		paddingBottom: "5%",
-		fontFamily: "'Open Sans', sans-serif",
 	}
 
 	return (
