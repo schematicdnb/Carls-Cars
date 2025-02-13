@@ -1,22 +1,59 @@
 .services {
-	/* display: flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
 	background-color: #f9f9f9;
 	padding: 2.5%;
+	display: flex;
+	justify-content: center;
 }
 
 .serviceTable {
-	padding-left: 5%;
-	padding-right: 5%;
-	width: 100%;
+	padding: 0 5%;
+	max-width: 1280px;
 	text-align: left;
 	color: black;
 }
 
+td {
+	padding: 5px;
+}
+
+
+
+.service-type,
+.service-cost,
+.service-duration,
+.description {
+	vertical-align: top;
+}
+
+.description {
+	width: 50%;
+}
+
+.diagnostic-container {
+	background-color: #f9f9f9;
+	padding-bottom: 5%;
+
+}
+
 .diagnostic {
+	/* background-color: darkred; */
+	justify-content: center;
+	display: inline-block;
 	background-color: darkred;
-	padding: 2.5%;
-	font-size: 1.2em;
+	border-radius: 25px;
+	/* width: 50%; */
+	padding: 1%;
+	font-size: 1.3em;
 	font-weight: bold;
+}
+
+.diagnostic-description {
+	max-width: 800px;
+	margin: 10px auto;
+	/* background-color: grey; */
+	border-radius: 7px;
+	font-size: 1em;
+	font-weight: normal;
+	
+	color: white;
 }

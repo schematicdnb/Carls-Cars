@@ -16,12 +16,39 @@ function Mechanics() {
 			<div className="header-container">
 				<Header text="We’ve got the right Carl for your car!" bgImg={bgImg} />
 			</div>
-			<div className="mechanics">
-				<Card photo={Carl} name="Carl" description="Bodywork" />
-				<Card photo={Carlos} name="Carlos" description="Heating/AC" />
-				<Card photo={Carly} name="Carly" description="General Maintenance" />
-				<Card photo={Carla} name="Carla" description="Engines" />
-				<Card photo={Karl} name="Karl" description="Electrical Systems" />
+			<div className="mechanics-container">
+				<div className="mechanics">
+					<Card
+						photo={Carl}
+						name="Carl"
+						specialty="Bodywork"
+						bio="Carl has over 20 years of experience in bodywork and has worked on a wide range of vehicles, from classic cars to modern models."
+					/>
+					<Card
+						photo={Carlos}
+						name="Carlos"
+						specialty="Heating/AC"
+						bio="Carlos is an expert in heating and air conditioning systems, ensuring your car's climate control is always in top shape."
+					/>
+					<Card
+						photo={Carly}
+						name="Carly"
+						specialty="General Maintenance"
+						bio="Carly handles general maintenance with precision and care, keeping your vehicle running smoothly and efficiently."
+					/>
+					<Card
+						photo={Carla}
+						name="Carla"
+						specialty="Engines"
+						bio="Carla specializes in engine repair and maintenance, with a deep understanding of both gasoline and diesel engines."
+					/>
+					<Card
+						photo={Karl}
+						name="Karl"
+						specialty="Electrical Systems"
+						bio="Karl is a wizard with electrical systems, diagnosing and fixing complex electrical issues in no time."
+					/>
+				</div>
 			</div>
 			<div>
 				<Contact />
