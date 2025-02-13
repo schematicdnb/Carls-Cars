@@ -27,6 +27,9 @@ function Book() {
 						<input type="date" id="date" name="date" required />
 						<label htmlFor="time">Select a time:</label>
 						<select id="time" name="time" required>
+							<option value="" disabled selected>
+								Select a time
+							</option>
 							<option value="8:00 AM">8:00 AM</option>
 							<option value="9:00 AM">9:00 AM</option>
 							<option value="10:00 AM">10:00 AM</option>
@@ -62,24 +65,29 @@ function Book() {
 
 						<div className="service-tech">
 							<label htmlFor="service">Service type:</label>
-							<select
-								id="service"
-								name="service"
-								placeholder="Select a service type"
-								required
-							>
-								<option value="service1">Service 1</option>
-								<option value="service2">Service 2</option>
-								<option value="service3">Service 3</option>
-								<option value="service4">Service 4</option>
+							<select id="service" name="service" required>
+								<option value="" disabled selected>
+									Select a service type
+								</option>
+								<option value="oil-change">Oil Change</option>
+								<option value="tire-rotation">Tire Rotation</option>
+								<option value="brake-inspection">Brake Inspection</option>
+								<option value="battery-check">Battery Check</option>
+								<option value="alignment">Alignment</option>
+								<option value="car-wash">Car Wash</option>
+								<option value="ac-service">AC Service</option>
+								<option value="transmission-flush">Transmission Flush</option>
+								<option value="engine-tune-up">Engine Tune-Up</option>
+								<option value="detailing">Detailing</option>
 							</select>
 							<label htmlFor="technician">Preferred technician:</label>
-							<select id="technician" name="technician" required>
+							<select id="technician" name="technician">
 								<option value="first-available">First Available</option>
-								<option value="tech1">Technician 1</option>
-								<option value="tech2">Technician 2</option>
-								<option value="tech3">Technician 3</option>
-								<option value="tech4">Technician 4</option>
+								<option value="carl">Carl</option>
+								<option value="carlos">Carlos</option>
+								<option value="carly">Carly</option>
+								<option value="carla">Carla</option>
+								<option value="karl">Karl</option>
 							</select>
 						</div>
 

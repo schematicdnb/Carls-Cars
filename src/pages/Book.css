@@ -50,30 +50,22 @@ input[type="url"]:focus {
 }
 
 .time-date {
-	/* display:  block; */
 	width: 33%;
-	/* padding: 10%; */
 }
 
 .form {
     display: flex;
-    /* flex-direction: column; */
     gap: 5%;
-    /* width: 50%; */
     padding: 5%;
 }
 
 
-.info {
-	/* padding: 10%; */
-	/* display: inline-block; */
-	/* display: flex; */
-	/* width: 50%; */
+.description {
+	width: 100%;
 }
 
 .name, .contact {
     display: flex;
-    /* flex-direction: column; */
     gap: 5%;
 }
 
