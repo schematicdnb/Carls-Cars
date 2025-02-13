@@ -26,8 +26,8 @@ function Book() {
 						<label htmlFor="date">Select a date:</label>
 						<input type="date" id="date" name="date" required />
 						<label htmlFor="time">Select a time:</label>
-						<select id="time" name="time" required>
-							<option value="" disabled selected>
+						<select id="time" name="time" required defaultValue="">
+							<option value="" disabled>
 								Select a time
 							</option>
 							<option value="8:00 AM">8:00 AM</option>
@@ -65,8 +65,8 @@ function Book() {
 
 						<div className="service-tech">
 							<label htmlFor="service">Service type:</label>
-							<select id="service" name="service" required>
-								<option value="" disabled selected>
+							<select id="service" name="service" required defaultValue="">
+								<option value="" disabled>
 									Select a service type
 								</option>
 								<option value="oil-change">Oil Change</option>
@@ -81,7 +81,11 @@ function Book() {
 								<option value="detailing">Detailing</option>
 							</select>
 							<label htmlFor="technician">Preferred technician:</label>
-							<select id="technician" name="technician">
+							<select
+								id="technician"
+								name="technician"
+								defaultValue="first-available"
+							>
 								<option value="first-available">First Available</option>
 								<option value="carl">Carl</option>
 								<option value="carlos">Carlos</option>
