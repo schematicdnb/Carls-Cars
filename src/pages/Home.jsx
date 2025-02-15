@@ -3,7 +3,6 @@ import "./Home.css"
 import Header from "../components/Header"
 import Review from "../components/Review"
 import ContactFooter from "../components/ContactFooter"
-import CTAimage from "../components/CTAimage"
 import bgImg from "../assets/pexels-daniel-andraski-197681005-13065693.jpg"
 import soundImage from "../assets/pexels-olly-3779448.jpg"
 
@@ -24,14 +23,14 @@ function Home() {
 						services to our community. Our experienced mechanics are committed
 						to getting you back on the road quickly and safely. Whether you need
 						routine maintenance or major repairs, you can count on us for
-						reliable and efficient service. <br/><br/>
-
+						reliable and efficient service. <br />
+						<br />
 						Our state-of-the-art facility is equipped with the latest diagnostic
 						tools and equipment to ensure your vehicle receives the best care
 						possible. We pride ourselves on our transparency and integrity,
 						providing you with detailed explanations and fair pricing for all
-						services. <br/><br/>
-
+						services. <br />
+						<br />
 						At Carl's Cars, customer satisfaction is our top priority. We strive
 						to build long-lasting relationships with our clients through
 						exceptional service and a commitment to excellence. Thank you for
