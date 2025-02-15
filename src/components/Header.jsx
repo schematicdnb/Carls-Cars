@@ -1,6 +1,7 @@
 import React from "react"
 import "./Header.css"
 import defaultImg from "../assets/pexels-cottonbro-4489749.jpg"
+import { useNavigate } from "react-router-dom"
 
 const Header = (props) => {
 	const headerBg = {
@@ -19,6 +20,8 @@ const Header = (props) => {
 		paddingBottom: "5%",
 	}
 
+	const navigate = useNavigate()
+
 	return (
 		<header className="header" style={{ position: "relative" }}>
 			<div className="header-bg" style={headerBg}></div>
@@ -30,9 +33,7 @@ const Header = (props) => {
 							: "Auto mechanics serving Ottawa motorists since 1989"}
 					</h1>
 				</div>
-				<button onClick={() => (window.location.href = "/book")}>
-					BOOK APPOINTMENT
-				</button>
+				<button onClick={() => navigate("/book")}>BOOK APPOINTMENT</button>
 			</div>
 		</header>
 	)
