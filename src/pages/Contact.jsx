@@ -14,13 +14,8 @@ function Contact() {
 	return (
 		<>
 			<Header />
-			<div
-				style={{ backgroundColor: "white", color: "black", padding: "10px" }}
-			>
-				<h1>Questions? Get in touch!</h1>
-			</div>
-
 			<div className="form-container">
+				<h1>Questions? Get in touch!</h1>
 				<div className="form">
 					{submitted ? (
 						<div className="confirmation-message">
@@ -55,7 +50,7 @@ function Contact() {
 								name="description"
 								rows="4"
 								cols="50"
-                                required
+								required
 							/>
 							<button type="submit" className="submit-button">
 								Submit

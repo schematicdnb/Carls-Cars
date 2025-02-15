@@ -1,13 +1,18 @@
 .book-container {
-    background-color: white;
-	/* display: flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
+	background-color: white;
+	padding: 2.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: left;
-    color: black;
+	color: black;
+}
 
-	/* padding: 10%; */
-	/* height: 100vh; */
+.subheader {
+	background-color: white;
+	padding: 0.1%;
+	margin-bottom: -2.5%;
+	color: black;
 }
 
 input[type="text"],
@@ -26,17 +31,15 @@ input[type="url"] {
 	border: 1px solid #ccc;
 	border-radius: 7px;
 	font-size: 16px;
-    background-color: white;
-    color: black;
-    
+	background-color: white;
+	color: black;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-    background-color: #000000; /* Change to your desired color */
-    border-radius: 50%; /* Optional: make the icon circular */
-    padding: 5px; /* Optional: add some padding */
+	background-color: #000000;
+	border-radius: 50%;
+	padding: 5px;
 }
-
 
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -54,26 +57,26 @@ input[type="url"]:focus {
 }
 
 .form {
-    display: flex;
-    gap: 5%;
-    padding: 5%;
+	display: flex;
+	gap: 5%;
+	padding: 5%;
 }
-
 
 .additional-info {
 	width: 100%;
 }
 
-.name, .contact {
-    display: flex;
-    gap: 5%;
+.name,
+.contact {
+	display: flex;
+	gap: 5%;
 }
 
 .service {
-    display: flex;
-    gap: 5%;
+	display: flex;
+	gap: 5%;
 }
 
 .button {
-    display: block;
+	display: block;
 }

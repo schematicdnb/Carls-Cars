@@ -21,6 +21,9 @@ function Book() {
 			<div className="header-container">
 				<Header />
 			</div>
+			<div className="subheader">
+			<h1>Book a Service Appointment</h1>
+			</div>
 			<div className="book-container">
 				<form className="form" onSubmit={handleSubmit}>
 					<div className="time-date">
