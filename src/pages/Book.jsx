@@ -2,9 +2,10 @@ import React from "react"
 import Header from "../components/Header"
 import ContactFooter from "../components/ContactFooter"
 import "./Book.css"
-// import { Form, Button } from "react-bootstrap"
+import { useNavigate } from "react-router-dom"
 
 function Book() {
+	const navigate = useNavigate()
 	const handleSubmit = (event) => {
 		event.preventDefault()
 		const date = event.target.date.value
@@ -13,7 +14,7 @@ function Book() {
 		localStorage.setItem("bookingDate", date)
 		localStorage.setItem("bookingTime", time)
 		localStorage.setItem("firstName", firstName)
-		window.location.href = "/confirmation"
+		navigate("/confirmation")
 	}
 	return (
 		<>
