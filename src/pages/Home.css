@@ -1,5 +1,13 @@
+.sound-container {
+	background-color: rgb(236, 236, 236);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .sound {
 	background-color: rgb(236, 236, 236);
+	max-width: 80%;
 	color: black;
 	text-align: left;
 	padding: 5%;
@@ -30,6 +38,30 @@ p {
 	width: 50%;
 }
 
+.about-container {
+	background: #f9f9f9;
+	display: flex;
+	justify-content: center;
+	padding: 2.5%;
+	margin-bottom: -2.5%;
+}
+
+.about {
+	color: black;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+}
+
+.about p {
+	background: rgb(236, 236, 236);
+	border-radius: 25px;
+	max-width: 70%;
+	padding: 25px;
+	/* column-count: 2; */
+}
+
 .reviews p {
 	background: #f9f9f9;
 	color: black;
@@ -46,4 +78,9 @@ p {
 	padding-right: 5%;
 	background-color: #f9f9f9;
 	color: black;
+}
+
+#noise {
+	width: 100%;
+	border-radius: 25px;
 }

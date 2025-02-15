@@ -21,6 +21,7 @@ function Services() {
 							<th>Price</th>
 							<th>Duration</th>
 							<th>Description</th>
+							<th>Recommended Frequency</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -30,9 +31,9 @@ function Services() {
 							<td className="service-duration">30 mins</td>
 							<td className="description">
 								Standard oil change with filter replacement. Keeps your engine
-								running smoothly and extends its life. Recommended every 4,800
-								to 8,000 kilometers.
+								running smoothly and extends its life.
 							</td>
+							<td className="frequency">Every 4,800 to 8,000 kilometers</td>
 						</tr>
 						<tr>
 							<td className="service-type">Tire Rotation</td>
@@ -40,8 +41,9 @@ function Services() {
 							<td className="service-duration">20 mins</td>
 							<td className="description">
 								Rotation of all four tires. Ensures even tire wear and extends
-								tire life. Recommended every 9,600 to 12,800 kilometers.
+								tire life.
 							</td>
+							<td className="frequency">Every 9,600 to 12,800 kilometers</td>
 						</tr>
 						<tr>
 							<td className="service-type">Brake Inspection</td>
@@ -49,8 +51,10 @@ function Services() {
 							<td className="service-duration">45 mins</td>
 							<td className="description">
 								Comprehensive brake system check. Ensures your brakes are
-								functioning properly for safety. Recommended every 16,000
-								kilometers or if you notice any issues.
+								functioning properly for safety.
+							</td>
+							<td className="frequency">
+								Every 16,000 kilometers or if you notice any issues
 							</td>
 						</tr>
 						<tr>
@@ -59,8 +63,9 @@ function Services() {
 							<td className="service-duration">15 mins</td>
 							<td className="description">
 								Testing and inspection of battery. Prevents unexpected battery
-								failure. Recommended every 6 months.
+								failure.
 							</td>
+							<td className="frequency">Every 6 months</td>
 						</tr>
 						<tr>
 							<td className="service-type">Alignment</td>
@@ -68,8 +73,10 @@ function Services() {
 							<td className="service-duration">1 hour</td>
 							<td className="description">
 								Wheel alignment service. Ensures your vehicle drives straight
-								and reduces tire wear. Recommended annually or if you notice
-								uneven tire wear.
+								and reduces tire wear.
+							</td>
+							<td className="frequency">
+								Annually or if you notice uneven tire wear
 							</td>
 						</tr>
 						<tr>
@@ -78,8 +85,9 @@ function Services() {
 							<td className="service-duration">30 mins</td>
 							<td className="description">
 								Exterior and interior cleaning. Keeps your car looking new and
-								protects the paint. Recommended monthly.
+								protects the paint.
 							</td>
+							<td className="frequency">Monthly</td>
 						</tr>
 						<tr>
 							<td className="service-type">AC Service</td>
@@ -87,8 +95,9 @@ function Services() {
 							<td className="service-duration">1 hour</td>
 							<td className="description">
 								Inspection and recharge of air conditioning system. Ensures your
-								AC is working efficiently. Recommended annually before summer.
+								AC is working efficiently.
 							</td>
+							<td className="frequency">Annually before summer</td>
 						</tr>
 						<tr>
 							<td className="service-type">Transmission Flush</td>
@@ -96,9 +105,9 @@ function Services() {
 							<td className="service-duration">2 hours</td>
 							<td className="description">
 								Complete transmission fluid replacement. Keeps your transmission
-								running smoothly and extends its life. Recommended every 48,000
-								to 96,000 kilometers.
+								running smoothly and extends its life.
 							</td>
+							<td className="frequency">Every 48,000 to 96,000 kilometers</td>
 						</tr>
 						<tr>
 							<td className="service-type">Engine Tune-Up</td>
@@ -106,9 +115,9 @@ function Services() {
 							<td className="service-duration">3 hours</td>
 							<td className="description">
 								Comprehensive engine performance check and tune-up. Improves
-								engine performance and fuel efficiency. Recommended every 48,000
-								kilometers.
+								engine performance and fuel efficiency.
 							</td>
+							<td className="frequency">Every 48,000 kilometers</td>
 						</tr>
 						<tr>
 							<td className="service-type">Detailing</td>
@@ -117,8 +126,8 @@ function Services() {
 							<td className="description">
 								Full interior and exterior detailing. Keeps your car looking
 								like new and protects the interior and exterior surfaces.
-								Recommended every 6 months.
 							</td>
+							<td className="frequency">Every 6 months</td>
 						</tr>
 					</tbody>
 				</table>

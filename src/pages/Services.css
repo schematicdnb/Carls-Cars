@@ -6,33 +6,42 @@
 }
 
 .serviceTable {
-	padding: 0 5%;
 	max-width: 1280px;
 	text-align: left;
 	color: black;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+tr {
+	border-bottom: 1px solid #ddd;
 }
 
 td {
-	padding: 5px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 15px;
 }
-
-
 
 .service-type,
 .service-cost,
 .service-duration,
-.description {
+.frequency {
 	vertical-align: top;
+	min-width: 65px;
 }
 
 .description {
 	width: 50%;
 }
 
+.frequency {
+	width: 20%;
+}
+
 .diagnostic-container {
 	background-color: #f9f9f9;
 	padding-bottom: 5%;
-
 }
 
 .diagnostic {
@@ -54,6 +63,6 @@ td {
 	border-radius: 7px;
 	font-size: 1em;
 	font-weight: normal;
-	
+
 	color: white;
 }

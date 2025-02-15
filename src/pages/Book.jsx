@@ -69,6 +69,9 @@ function Book() {
 								<option value="" disabled>
 									Select a service type
 								</option>
+								<option value="diagnostic">
+									General Inspection/Diagnostic
+								</option>
 								<option value="oil-change">Oil Change</option>
 								<option value="tire-rotation">Tire Rotation</option>
 								<option value="brake-inspection">Brake Inspection</option>
@@ -95,7 +98,7 @@ function Book() {
 							</select>
 						</div>
 
-						<div className="description">
+						<div className="additional-info">
 							<label htmlFor="description">
 								Additional info/problem description:
 							</label>
@@ -106,10 +109,10 @@ function Book() {
 								cols="50"
 							/>
 						</div>
+						<button type="submit" className="submit-button">
+							Submit
+						</button>
 					</div>
-					<button type="submit" className="submit-button">
-						Submit
-					</button>
 				</form>
 			</div>
 			<div>
